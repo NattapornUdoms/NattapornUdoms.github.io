@@ -9,6 +9,27 @@ body {
     background-color: #f4f4f4;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
 .container {
     text-align: center;
     max-width: 800px; /* Increased from 90% */
