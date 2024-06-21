@@ -11,7 +11,7 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #f8f9fa;
     padding: 1rem 0;
     position: fixed;
@@ -30,6 +30,11 @@ body {
 
 .navbar a:hover {
     text-decoration: underline;
+}
+
+.right-links {
+    margin-left: auto; /* ดันกลุ่มลิงก์นี้ไปทางขวา */
+    display: flex;
 }
 
 .container {
